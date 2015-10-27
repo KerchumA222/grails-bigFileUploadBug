@@ -3,5 +3,7 @@ package bigfileuploadbug
 class UploadController {
 
     def index() { }
-    def submit() { }
+    def submit() {
+        println "In controller"
+    }
 }
